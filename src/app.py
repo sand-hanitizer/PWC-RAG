@@ -4,7 +4,7 @@ from typing import List
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
-from src.rag import RAG
+from rag import RAG
 
 st.set_page_config(layout="wide")
 load_dotenv()

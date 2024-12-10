@@ -4,7 +4,7 @@ from langchain_community.llms import HuggingFaceEndpoint
 from upstash_vector import Index
 from prompt_template import RAG_PROMPT_TEMPLATE
 from upstash_db import UpstashVectorStore
-from src.callbacks import StreamHandler
+from callbacks import StreamHandler
 
 
 load_dotenv()

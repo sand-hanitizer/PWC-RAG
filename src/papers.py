@@ -5,8 +5,8 @@ from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from upstash_vector import Index
-from src.pwc import extract_papers
-from src.upstash_db import UpstashVectorStore
+from pwc import extract_papers
+from upstash_db import UpstashVectorStore
 
 
 @click.command()
