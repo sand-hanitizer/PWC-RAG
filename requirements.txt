@@ -8,3 +8,4 @@ upstash-vector
 streamlit
 huggingface
 sentence-transformers
+langchain-community
